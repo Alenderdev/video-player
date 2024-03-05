@@ -9,13 +9,13 @@ $backward.addEventListener('click', handleBackward )
 $forward.addEventListener('click', handleForward )
 
 function handlePlay(){
-    $video.play()
+    $video.play();
     $play.hidden = true
     $pause.hidden = false
 }
 
 function handlePause(){
-    $video.pause()
+    $video.pause();
     play.hidden = false
     $pause.hidden = true
 }
